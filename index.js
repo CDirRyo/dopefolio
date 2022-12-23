@@ -22,6 +22,7 @@ hamMenuBtn.addEventListener('click', () => {
   }
 })
 
+
 for (let i = 0; i < headerSmallMenuLinks.length; i++) {
   headerSmallMenuLinks[i].addEventListener('click', () => {
     smallMenu.classList.remove('header__sm-menu--active')
@@ -29,6 +30,7 @@ for (let i = 0; i < headerSmallMenuLinks.length; i++) {
     headerHamMenuCloseBtn.classList.add('d-none')
   })
 }
+
 
 // ---
 const headerLogoConatiner = document.querySelector('.header__logo-container')
