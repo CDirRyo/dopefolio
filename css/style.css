@@ -66,6 +66,10 @@ textarea {
   padding-top: 0;
 }
 
+.projects__row-content > .skills {
+  margin-bottom: 1rem;
+}
+
 .heading-primary {
   font-size: 6rem;
   text-transform: uppercase;
